@@ -9996,3 +9996,462 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.08.05-01.18.15:175][140]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
 [2025.08.05-01.18.15:244][141]LogPlayLevel: Display: Destroying online subsystem :Context_47
 [2025.08.05-01.25.03:247][666]LogDerivedDataCache: C:/Users/Rochi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.076 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1136 files in 1879 folders with total size 139 MiB.
+[2025.08.05-01.37.53:589][338]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.08.05-01.37.53:624][338]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.08.05-01.37.53:624][338]PIE: New page: PIE session: Nivel__1 (Aug 4, 2025, 7:37:53 PM)
+[2025.08.05-01.37.53:624][338]LogPlayLevel: Creating play world package: /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1
+[2025.08.05-01.37.53:645][338]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020748s)
+[2025.08.05-01.37.53:645][338]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerGame/Maps/Nivel__1.Nivel__1 to /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1 (0.020793s)
+[2025.08.05-01.37.53:661][338]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.08.05-01.37.53:665][338]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.08.05-01.37.53:665][338]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.08.05-01.37.53:665][338]LogAIModule: Creating AISystem for world Nivel__1
+[2025.08.05-01.37.53:666][338]LogPlayLevel: PIE: World Init took: (0.001254s)
+[2025.08.05-01.37.53:666][338]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2025.08.05-01.37.53:666][338]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.08.05-01.37.53:666][338]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.08.05-01.37.53:666][338]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.08.05-01.37.53:666][338]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.08.05-01.37.53:666][338]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.08.05-01.37.53:666][338]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.08.05-01.37.53:666][338]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.08.05-01.37.53:666][338]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.08.05-01.37.53:667][338]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.08.05-01.37.53:667][338]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.08.05-01.37.53:667][338]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.08.05-01.37.53:669][338]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.08.05-01.37.53:701][338]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech PRO X Gaming Headset)
+[2025.08.05-01.37.53:701][338]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.08.05-01.37.53:701][338]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.08.05-01.37.53:701][338]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.08.05-01.37.53:702][338]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2025.08.05-01.37.53:702][338]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=29
+[2025.08.05-01.37.53:704][338]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2025.08.05-01.37.53:704][338]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2025.08.05-01.37.53:704][338]LogInit: FAudioDevice initialized with ID 29.
+[2025.08.05-01.37.53:704][338]LogAudio: Display: Audio Device (ID: 29) registered with world 'Nivel__1'.
+[2025.08.05-01.37.53:704][338]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 29
+[2025.08.05-01.37.53:707][338]LogLoad: Game class is 'BP_GM_SideScroller_C'
+[2025.08.05-01.37.53:717][338]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with RangedEnemy_BP_C_1, they are designed to work with AAIControllers!
+[2025.08.05-01.37.53:717][338]LogWorld: Bringing World /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1 up for play (max tick rate 0) at 2025.08.04-22.37.53
+[2025.08.05-01.37.53:718][338]LogWorld: Bringing up level for play took: 0.010976
+[2025.08.05-01.37.53:721][338]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2025.08.05-01.37.53:727][338]LogLevelSequence: Starting new camera cut: 'CineCameraActor_0'
+[2025.08.05-01.37.53:728][338]PIE: Server logged in
+[2025.08.05-01.37.53:729][338]PIE: Play in editor total start time 0.116 seconds.
+[2025.08.05-01.37.53:732][338]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.53:732][338]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.53:904][341]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.53:905][341]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.53:951][344]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.53:951][344]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.54:000][347]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.54:000][347]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.54:040][350]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.54:040][350]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.54:084][353]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.54:084][353]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.54:129][356]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.54:129][356]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.54:178][359]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.54:178][359]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.54:224][362]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.54:224][362]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.54:269][365]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.54:270][365]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.54:316][368]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.54:316][368]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.54:361][371]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.54:361][371]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.54:413][374]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.54:413][374]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.54:459][377]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.54:459][377]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.54:503][380]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.54:503][380]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.54:543][383]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.54:544][383]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.54:584][386]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.54:584][386]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.54:627][389]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.54:627][389]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.54:677][392]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.54:677][392]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.54:721][395]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.54:721][395]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.54:762][398]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.54:762][398]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.54:804][401]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.54:804][401]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.54:848][404]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.54:848][404]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.54:892][407]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.54:892][407]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.54:937][410]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.54:937][410]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.54:977][413]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.54:977][413]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.55:018][416]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.55:018][416]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.55:059][419]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.55:059][419]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.55:104][422]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.55:104][422]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.55:147][425]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.55:147][425]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.55:189][428]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.55:189][428]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.55:230][431]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.55:230][431]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.55:274][434]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.55:274][434]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.55:318][437]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.55:318][437]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.55:362][440]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.55:362][440]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.55:408][443]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.55:409][443]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.55:458][446]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.55:458][446]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.55:492][448]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Spikes'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.08.05-01.37.55:505][449]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.55:505][449]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.55:551][452]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.55:551][452]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.55:592][455]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.55:593][455]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.55:635][458]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.55:635][458]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.55:678][461]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.55:678][461]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.55:722][464]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.55:722][464]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.55:764][467]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.55:764][467]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.55:810][470]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.55:810][470]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.55:854][473]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.55:854][473]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.55:896][476]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.55:897][476]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.55:939][479]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.55:939][479]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.55:981][482]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.55:981][482]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.56:023][485]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.56:023][485]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.56:066][488]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.56:066][488]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.56:109][491]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.56:109][491]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.56:150][494]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.56:151][494]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.56:195][497]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.56:195][497]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.56:237][500]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.56:238][500]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.56:280][503]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.56:280][503]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.56:322][506]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.56:322][506]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.56:367][509]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.56:367][509]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.56:411][512]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.56:411][512]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.56:455][515]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.56:455][515]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.56:498][518]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.56:498][518]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.56:542][521]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.56:542][521]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.56:586][524]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.56:586][524]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.56:628][527]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.56:628][527]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.56:671][530]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.56:671][530]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.56:710][533]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.56:710][533]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.56:749][536]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.56:749][536]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.56:785][539]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.56:785][539]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.56:828][542]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.56:828][542]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.56:866][545]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.56:866][545]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.56:912][548]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.56:912][548]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.56:954][551]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.56:954][551]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.56:998][554]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.56:998][554]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.57:040][557]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.57:040][557]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.57:082][560]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.57:083][560]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.57:124][563]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.57:125][563]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.57:170][566]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.57:170][566]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.57:215][569]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.37.57:215][569]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.37.58:447][656]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Spikes'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.08.05-01.37.59:253][713]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Spikes'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.08.05-01.37.59:478][729]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Spikes'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.08.05-01.38.00:084][772]LogLevelSequence: Starting new camera cut: 'BP_Character_C_0'
+[2025.08.05-01.38.12:415][700]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.08.05-01.38.27:512][805]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.05-01.38.27:512][805]LogWorld: BeginTearingDown for /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1
+[2025.08.05-01.38.27:513][805]LogWorld: UWorld::CleanupWorld for Nivel__1, bSessionEnded=true, bCleanupResources=true
+[2025.08.05-01.38.27:514][805]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.05-01.38.27:518][805]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.08.05-01.38.27:526][805]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.05-01.38.27:541][805]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.05-01.38.27:543][805]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 29
+[2025.08.05-01.38.27:543][805]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2025.08.05-01.38.27:545][805]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2025.08.05-01.38.27:555][805]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.08.05-01.38.27:622][806]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2025.08.05-01.38.28:729][895]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.08.05-01.38.28:763][895]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.08.05-01.38.28:763][895]PIE: New page: PIE session: Nivel__1 (Aug 4, 2025, 7:38:28 PM)
+[2025.08.05-01.38.28:763][895]LogPlayLevel: Creating play world package: /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1
+[2025.08.05-01.38.28:783][895]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020262s)
+[2025.08.05-01.38.28:783][895]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerGame/Maps/Nivel__1.Nivel__1 to /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1 (0.020302s)
+[2025.08.05-01.38.28:800][895]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.08.05-01.38.28:802][895]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.08.05-01.38.28:803][895]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.08.05-01.38.28:803][895]LogAIModule: Creating AISystem for world Nivel__1
+[2025.08.05-01.38.28:803][895]LogPlayLevel: PIE: World Init took: (0.001044s)
+[2025.08.05-01.38.28:803][895]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2025.08.05-01.38.28:804][895]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.08.05-01.38.28:804][895]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.08.05-01.38.28:804][895]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.08.05-01.38.28:804][895]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.08.05-01.38.28:804][895]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.08.05-01.38.28:804][895]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.08.05-01.38.28:804][895]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.08.05-01.38.28:804][895]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.08.05-01.38.28:804][895]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.08.05-01.38.28:804][895]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.08.05-01.38.28:804][895]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.08.05-01.38.28:806][895]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.08.05-01.38.28:838][895]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech PRO X Gaming Headset)
+[2025.08.05-01.38.28:838][895]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.08.05-01.38.28:838][895]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.08.05-01.38.28:838][895]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.08.05-01.38.28:839][895]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=30
+[2025.08.05-01.38.28:839][895]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=30
+[2025.08.05-01.38.28:841][895]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=30
+[2025.08.05-01.38.28:841][895]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=30
+[2025.08.05-01.38.28:841][895]LogInit: FAudioDevice initialized with ID 30.
+[2025.08.05-01.38.28:841][895]LogAudio: Display: Audio Device (ID: 30) registered with world 'Nivel__1'.
+[2025.08.05-01.38.28:841][895]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 30
+[2025.08.05-01.38.28:844][895]LogLoad: Game class is 'BP_GM_SideScroller_C'
+[2025.08.05-01.38.28:854][895]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with RangedEnemy_BP_C_1, they are designed to work with AAIControllers!
+[2025.08.05-01.38.28:854][895]LogWorld: Bringing World /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1 up for play (max tick rate 0) at 2025.08.04-22.38.28
+[2025.08.05-01.38.28:856][895]LogWorld: Bringing up level for play took: 0.011649
+[2025.08.05-01.38.28:859][895]LogOnline: OSS: Created online subsystem instance for: :Context_50
+[2025.08.05-01.38.28:864][895]LogLevelSequence: Starting new camera cut: 'CineCameraActor_0'
+[2025.08.05-01.38.28:865][895]PIE: Server logged in
+[2025.08.05-01.38.28:866][895]PIE: Play in editor total start time 0.114 seconds.
+[2025.08.05-01.38.28:868][895]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.28:868][895]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.29:041][898]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.29:041][898]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.29:094][901]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.29:094][901]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.29:140][904]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.29:140][904]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.29:190][907]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.29:190][907]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.29:233][910]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.29:233][910]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.29:274][913]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.29:274][913]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.29:313][916]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.29:313][916]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.29:354][919]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.29:354][919]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.29:395][922]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.29:395][922]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.29:436][925]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.29:436][925]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.29:472][928]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.29:472][928]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.29:510][931]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.29:510][931]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.29:547][934]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.29:548][934]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.29:584][937]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.29:584][937]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.29:620][940]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.29:620][940]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.29:660][943]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.29:660][943]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.29:696][946]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.29:697][946]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.29:737][949]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.29:737][949]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.29:778][952]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.29:778][952]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.29:816][955]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.29:816][955]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.29:855][958]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.29:855][958]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.29:894][961]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.29:894][961]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.29:938][964]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.29:938][964]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.29:977][967]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.29:977][967]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.30:016][970]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.30:016][970]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.30:056][973]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.30:056][973]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.30:095][976]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.30:096][976]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.30:135][979]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.30:135][979]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.30:174][982]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.30:174][982]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.30:216][985]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.30:216][985]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.30:255][988]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.30:255][988]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.30:293][991]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.30:293][991]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.30:329][994]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.30:329][994]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.30:366][997]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.30:366][997]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.30:403][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.30:404][  0]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.30:442][  3]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.30:442][  3]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.30:476][  6]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.30:476][  6]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.30:512][  9]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.30:512][  9]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.30:549][ 12]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.30:549][ 12]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.30:585][ 15]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.30:585][ 15]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.30:623][ 18]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.30:623][ 18]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.30:666][ 21]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.30:667][ 21]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.30:703][ 24]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.30:703][ 24]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.30:729][ 26]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Spikes'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.08.05-01.38.30:739][ 27]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.30:740][ 27]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.30:777][ 30]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.30:777][ 30]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.30:815][ 33]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.30:815][ 33]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.30:853][ 36]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.30:853][ 36]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.30:889][ 39]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.30:889][ 39]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.30:926][ 42]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.30:926][ 42]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.30:965][ 45]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.30:965][ 45]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.31:001][ 48]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.31:002][ 48]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.31:039][ 51]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.31:039][ 51]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.31:076][ 54]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.31:076][ 54]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.31:114][ 57]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.31:115][ 57]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.31:155][ 60]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.31:155][ 60]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.31:197][ 63]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.31:197][ 63]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.31:234][ 66]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.31:235][ 66]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.31:277][ 69]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.31:277][ 69]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.31:320][ 72]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.31:320][ 72]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.31:359][ 75]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.31:359][ 75]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.31:403][ 78]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.31:403][ 78]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.31:446][ 81]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.31:446][ 81]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.31:487][ 84]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.31:487][ 84]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.31:532][ 87]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.31:532][ 87]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.31:569][ 90]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.31:569][ 90]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.31:609][ 93]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.31:609][ 93]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.31:649][ 96]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.31:649][ 96]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.31:686][ 99]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.31:686][ 99]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.31:723][102]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.31:723][102]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.31:758][105]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.31:758][105]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.31:794][108]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.31:795][108]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.31:833][111]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.31:833][111]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.31:872][114]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.31:872][114]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.31:908][117]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.31:908][117]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.31:948][120]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.31:949][120]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.31:984][123]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.31:984][123]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.32:021][126]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.32:021][126]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.32:058][129]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.32:058][129]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.32:094][132]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.32:094][132]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.32:131][135]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.32:131][135]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.32:180][138]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.32:180][138]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.32:223][141]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.32:224][141]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.32:263][144]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.32:263][144]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.32:303][147]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.32:303][147]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.32:344][150]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Patrol Locations' of length 0 in '/Game/SideScrollerGame/Enemies/RangedEnemy/RangedEnemy_BP.RangedEnemy_BP_C'!
+[2025.08.05-01.38.32:344][150]LogScript: Warning: Script Msg called by: RangedEnemy_BP_C /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1.Nivel__1:PersistentLevel.RangedEnemy_BP_C_1
+[2025.08.05-01.38.33:579][249]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Spikes'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.08.05-01.38.34:384][311]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Spikes'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.08.05-01.38.34:594][327]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Spikes'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.08.05-01.38.35:224][376]LogLevelSequence: Starting new camera cut: 'BP_Character_C_0'
+[2025.08.05-01.38.53:091][776]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Spikes'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.08.05-01.38.53:234][787]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Spikes'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.08.05-01.38.53:306][793]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Spikes'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.08.05-01.38.56:630][ 50]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.05-01.38.56:630][ 50]LogWorld: BeginTearingDown for /Game/SideScrollerGame/Maps/UEDPIE_0_Nivel__1
+[2025.08.05-01.38.56:630][ 50]LogWorld: UWorld::CleanupWorld for Nivel__1, bSessionEnded=true, bCleanupResources=true
+[2025.08.05-01.38.56:632][ 50]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.05-01.38.56:636][ 50]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.08.05-01.38.56:644][ 50]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.05-01.38.56:659][ 50]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.05-01.38.56:661][ 50]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 30
+[2025.08.05-01.38.56:661][ 50]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2025.08.05-01.38.56:663][ 50]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2025.08.05-01.38.56:673][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.08.05-01.38.56:745][ 51]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2025.08.05-01.38.59:300][258]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.05-01.38.59:359][258]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CinematicaIntroLv" FILE="E:/GitHub/ProyectoMotores/Proyecto-Motores/Content/CinematicaIntroLv.uasset" SILENT=true
+[2025.08.05-01.38.59:375][258]LogSavePackage: Moving output files for package: /Game/CinematicaIntroLv
+[2025.08.05-01.38.59:375][258]LogSavePackage: Moving 'E:/GitHub/ProyectoMotores/Proyecto-Motores/Saved/CinematicaIntroLv5CD5D08D4620235FF39C86B01506B28B.tmp' to 'E:/GitHub/ProyectoMotores/Proyecto-Motores/Content/CinematicaIntroLv.uasset'
+[2025.08.05-01.38.59:383][258]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 1.38 sec)
+[2025.08.05-01.38.59:385][258]AssetCheck: New page: Asset Save: CinematicaIntroLv
+[2025.08.05-01.38.59:385][258]LogContentValidation: Display: Validating /Script/LevelSequence.LevelSequence /Game/CinematicaIntroLv.CinematicaIntroLv
